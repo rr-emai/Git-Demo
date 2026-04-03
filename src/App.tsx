@@ -3,6 +3,7 @@ import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Practice from "./pages/Practice";
+import Feature from "./pages/Feature";
 
 function App(): JSX.Element {
   return (
@@ -22,6 +23,7 @@ function App(): JSX.Element {
         <Route path="/Home" element={<h2>Home</h2>} />
         <Route path="/about" element={<About />} />
         <Route path="/practice" element={<Practice />} />
+        <Route path="/feature" element={<Feature />} />
       </Routes>
     </>
   );
